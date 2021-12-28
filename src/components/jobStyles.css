@@ -1,0 +1,110 @@
+.container{
+    background-color:hsl(180, 20%, 99%);
+    margin: 30px auto;
+    box-shadow: 0px 20px 8px hsl(180, 29%, 91%);
+}
+.left_box{
+    width: 50%;
+    margin-left: 15px;
+}
+#imgs{
+   width:100% ;
+   height: auto;
+}
+.box_1{
+    margin: auto 10px auto 0;
+    width: 30%;
+}
+.box_2{
+    width: 70%; 
+}
+#box_2_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+#company{
+    color: hsl(180, 29%, 50%);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#new{
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 7px;
+    text-align: center;
+    padding: 7px 5px;
+    border-radius: 15px;
+}
+#featured{
+    color: white;
+    background-color: hsl(180, 14%, 20%);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 7px 5px;
+    border-radius: 15px;
+}
+
+#position{
+    color:hsl(180, 29%, 50%);
+    font-weight: 700;
+    cursor: pointer;
+}
+#postedAt{
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+}
+.right_box{
+    width: 50%;
+    flex-wrap: wrap;
+
+    
+
+}
+
+.right_box span{
+    background-color:hsl(180, 52%, 96%);
+    color: hsl(180, 29%, 50%);
+    margin:3px 6px;
+    padding:7px 10px;
+}
+.right_box span:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin:30px auto 60px auto;
+    }
+    .left_box{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+        transform: translateY(-10%);
+        border-bottom: hsl(180, 29%, 50%) 1px solid;
+    }
+    .right_box{
+        width:80%
+    }
+    .box_1{
+        width: 15%;
+    }
+    .box_2{
+        width: 100%;
+    }
+    .right_box span{
+        
+        margin:4px 8px;
+
+    }
+  }

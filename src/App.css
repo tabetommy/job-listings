@@ -1,0 +1,71 @@
+
+.header{
+  background-color: hsl(180, 29%, 50%);
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+
+}
+
+.header img{
+  width: 100%;
+  margin: 0;
+}
+
+#tagsBar{
+  position:relative;
+  transform: translateY(-130%);
+  width:80%;
+  height: 70px;
+  margin: 0 auto;
+  background-color:hsl(180, 20%, 99%) ;
+  box-shadow: 0px 20px 8px hsl(180, 29%, 91%);
+
+}
+#tag-con {
+  margin:auto 20px;
+}
+.tag{
+  background-color:hsl(180, 52%, 96%);
+  color: hsl(180, 29%, 50%);
+  margin:0px 5px;
+  
+  
+}
+.icon{
+  background-color: hsl(180, 29%, 50%);
+  margin-left: -4px;
+  
+}
+.icon:hover{
+  background-color: black;
+}
+.icon img{
+  font-size: 12px;
+  padding: 0 5px;
+}
+#clear{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-size: 15px;
+  background-color:hsl(180, 52%, 96%);
+  color:hsl(180, 29%, 50%);
+  padding: 3px 6px;
+}
+span{
+  cursor:pointer;
+  border-radius: 5px;
+}
+.attribution{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.attribution a{
+  color: blue;
+}
+.attribution span{
+  color: blue;
+}
